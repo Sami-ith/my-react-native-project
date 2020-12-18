@@ -1,5 +1,5 @@
 import React from "react";
-import {StyleSheet,Button, View, Text, TextInput } from "react-native";
+import {StyleSheet, View, Text } from "react-native";
 export default function Card(props) {
     
     return (

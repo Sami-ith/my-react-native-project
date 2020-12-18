@@ -3,12 +3,9 @@ import { useState } from "react";
 import { StyleSheet, View, TextInput, Alert } from "react-native";
 
 export default function HomeScreen({ navigation }) {
- 
   const [name, setName] = useState("");
   var country;
-  
- 
-  
+
   return (
     <View
       style={{
@@ -40,20 +37,19 @@ export default function HomeScreen({ navigation }) {
         }}
         value={name}
       />
-      
     </View>
   );
 }
 const styles = StyleSheet.create({
   searchBox: {
-    borderRadius:50,
+    borderRadius: 50,
     backgroundColor: "#fff",
     shadowOffset: { width: 1, height: 1 },
     shadowColor: "#333",
     shadowOpacity: 0.3,
     shadowRadius: 2,
     width: "80%",
-    height: "10%",
-    textAlign: 'center',
+    height: 50,
+    textAlign: "center",
   },
 });
